@@ -13,7 +13,7 @@ var kDarkColorScheme = ColorScheme.fromSeed(
 
 void main() {
   runApp(
-    Mate  ` X rialApp(
+    MaterialApp(
       darkTheme: ThemeData.dark().copyWith(
         useMaterial3: true,
         colorScheme: kDarkColorScheme,
